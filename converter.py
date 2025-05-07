@@ -1,6 +1,10 @@
 from pydub import AudioSegment
+from pydub.utils import which
 import os
 from logger import log_info, log_success, log_warning, log_error, log_to_file
+
+AudioSegment.converter = which("ffmpeg")
+AudioSegment.ffprobe   = which("ffprobe")
 
 def convert_audio(input_file, output_file, output_format, overwrite=False, log_file=None):
     try:

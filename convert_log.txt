@@ -1,0 +1,2 @@
+2025-05-07 12:16:32.540880 - Error converting C:\Users\Recon\Downloads\sound-1.mp3: [WinError 2] The system cannot find the file specified
+2025-05-07 12:19:19.416405 - Error converting C:\Users\Recon\Downloads\sound-1.mp3: [WinError 2] The system cannot find the file specified

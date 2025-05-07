@@ -1,0 +1,38 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Logs and debug
+*.log
+*.tmp
+*.bak
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Audio output
+converted_audio/
+*.ogg
+*.mp3
+*.wav
+*.flac
+
+# IDE/project settings
+.vscode/
+.idea/
+*.code-workspace
