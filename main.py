@@ -1,7 +1,7 @@
 import argparse
 import json
 import os
-from converter import convert_audio
+from converter import convert_audio, batch_convert
 from logger import log_info, log_warning
 
 def load_config(path="config.json"):
@@ -34,6 +34,9 @@ def main():
         os.makedirs(output_path)
 
     if os.path.isdir(input_path):
+        log_info(f"Processing folder: {input_path}")
+        batch_convert(input_path, output_path, in_format, out_format, overwrite, log_file)
+
         for file in os.listdir(input_path):
             if file.lower().endswith(f".{in_format}"):
                 input_file = os.path.join(input_path, file)
