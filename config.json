@@ -1,0 +1,8 @@
+{
+    "input_path": "input_audio",
+    "output_path": "converted_audio",
+    "input_format": "wav",
+    "output_format": "mp3",
+    "overwrite": false,
+    "log_file": "convert_log.txt"
+  }  
